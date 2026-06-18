@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "user_id": 2,
+    "employee_name": "Sarah Designer",
+    "role": "Lead Interior Designer",
+    "contact_number": "+91 99999 88888",
+    "email": "designer@harmony.com",
+    "joining_date": "2025-01-15",
+    "salary": 65000,
+    "attendance_summary": {
+      "present": 23,
+      "absent": 1,
+      "leave": 1
+    },
+    "performance_rating": 4.8,
+    "created_at": "2026-06-18T05:27:45.006Z",
+    "updated_at": "2026-06-18T07:57:06.917Z"
+  },
+  {
+    "id": 2,
+    "user_id": 3,
+    "employee_name": "John Sales",
+    "role": "Senior Sales Executive",
+    "contact_number": "+91 88888 77777",
+    "email": "sales@harmony.com",
+    "joining_date": "2025-03-01",
+    "salary": 45000,
+    "attendance_summary": {
+      "present": 24,
+      "absent": 0,
+      "leave": 0
+    },
+    "performance_rating": 4.5,
+    "created_at": "2026-06-18T05:27:45.008Z",
+    "updated_at": "2026-06-18T05:27:45.008Z"
+  },
+  {
+    "id": 3,
+    "user_id": 5,
+    "employee_name": "Emma Accountant",
+    "role": "Head Accountant",
+    "contact_number": "+91 77777 66666",
+    "email": "accountant@harmony.com",
+    "joining_date": "2025-02-10",
+    "salary": 55000,
+    "attendance_summary": {
+      "present": 21,
+      "absent": 2,
+      "leave": 1
+    },
+    "performance_rating": 4.6,
+    "created_at": "2026-06-18T05:27:45.010Z",
+    "updated_at": "2026-06-18T05:27:45.010Z"
+  }
+]

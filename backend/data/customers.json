@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Aditya Reddy",
+    "mobile_number": "+91 99001 12233",
+    "email": "aditya.reddy@gmail.com",
+    "address": "Villa 14, Gated Green, Narsingi",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "pin_code": "500075",
+    "project_type": "Home Design",
+    "budget": 1500000,
+    "notes": "Full villa design project including living, master bedroom and custom modular kitchen. Prefers gold accents and neutral palettes.",
+    "created_at": "2026-06-18T05:27:44.967Z",
+    "updated_at": "2026-06-18T05:27:44.967Z"
+  },
+  {
+    "id": 2,
+    "name": "Nisha Sharma",
+    "mobile_number": "+91 98480 22338",
+    "email": "nisha.sharma@yahoo.com",
+    "address": "Apt 402, Signature Towers, Madhapur",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "pin_code": "500081",
+    "project_type": "Home Design",
+    "budget": 750000,
+    "notes": "3BHK apartment renovation. Focus on spaces saving designs, wardrobes, and modern dining setup.",
+    "created_at": "2026-06-18T05:27:44.968Z",
+    "updated_at": "2026-06-18T05:27:44.968Z"
+  },
+  {
+    "id": 3,
+    "name": "V-Serve Corp Offices",
+    "mobile_number": "+91 40 4567 8901",
+    "email": "facilities@vserve.co.in",
+    "address": "Level 5, WaveRock IT Park, Gachibowli",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "pin_code": "500032",
+    "project_type": "Office Design",
+    "budget": 3500000,
+    "notes": "Corporate office space design for 50 employees. Needs modern workstations, executive cabins, boardrooms and reception lobby.",
+    "created_at": "2026-06-18T05:27:44.970Z",
+    "updated_at": "2026-06-18T05:27:44.970Z"
+  }
+]

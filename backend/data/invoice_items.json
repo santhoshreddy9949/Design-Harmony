@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "invoice_id": 1,
+    "product_id": 1,
+    "product_name": "Royal Velvet Chesterfield Sofa",
+    "quantity": 2,
+    "unit_price": 85000,
+    "gst_rate": 18,
+    "gst_amount": 30600,
+    "total_price": 170000,
+    "created_at": "2026-06-18T05:27:44.997Z",
+    "updated_at": "2026-06-18T05:27:44.997Z"
+  },
+  {
+    "id": 2,
+    "invoice_id": 1,
+    "product_id": 3,
+    "product_name": "Mid-Century Modern Lounge Chair",
+    "quantity": 1,
+    "unit_price": 28000,
+    "gst_rate": 18,
+    "gst_amount": 5040,
+    "total_price": 28000,
+    "created_at": "2026-06-18T05:27:44.998Z",
+    "updated_at": "2026-06-18T05:27:44.998Z"
+  }
+]

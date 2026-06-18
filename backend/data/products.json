@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "product_name": "Royal Velvet Chesterfield Sofa",
+    "category": "Sofa",
+    "material": "Teak Wood & Velvet Fabric",
+    "dimensions": "84\" W x 38\" D x 33\" H",
+    "price": 85000,
+    "quantity": 8,
+    "images": [
+      "/images/sofa_chesterfield.png"
+    ],
+    "description": "A timeless Chesterfield sofa upholstered in premium royal blue velvet with deep button tufting and solid teak legs.",
+    "created_at": "2026-06-18T05:27:44.927Z",
+    "updated_at": "2026-06-18T05:27:44.927Z"
+  },
+  {
+    "id": 2,
+    "product_name": "Minimalist Oak Dining Table",
+    "category": "Dining Table",
+    "material": "Solid Oak Wood",
+    "dimensions": "72\" L x 36\" W x 30\" H",
+    "price": 62000,
+    "quantity": 4,
+    "images": [
+      "/images/dining_table.png"
+    ],
+    "description": "Elegant and contemporary solid white oak dining table with a clear matte polyurethane finish.",
+    "created_at": "2026-06-18T05:27:44.947Z",
+    "updated_at": "2026-06-18T05:27:44.947Z"
+  },
+  {
+    "id": 3,
+    "product_name": "Mid-Century Modern Lounge Chair",
+    "category": "Chair",
+    "material": "Bentwood & Leather",
+    "dimensions": "32\" W x 32\" D x 33\" H",
+    "price": 28000,
+    "quantity": 15,
+    "images": [
+      "/images/lounge_chair.png"
+    ],
+    "description": "Classic mid-century lounge chair featuring premium black top-grain leather and molded walnut veneer shells.",
+    "created_at": "2026-06-18T05:27:44.952Z",
+    "updated_at": "2026-06-18T05:27:44.952Z"
+  },
+  {
+    "id": 4,
+    "product_name": "Luxury Tufted King Bed",
+    "category": "Bed",
+    "material": "Engineered Wood & Linen",
+    "dimensions": "86\" L x 80\" W x 54\" H",
+    "price": 78000,
+    "quantity": 3,
+    "images": [
+      "/images/king_bed.png"
+    ],
+    "description": "A plush upholstered king bed with a tall diamond-tufted headboard in an off-white linen blend.",
+    "created_at": "2026-06-18T05:27:44.955Z",
+    "updated_at": "2026-06-18T05:27:44.955Z"
+  },
+  {
+    "id": 5,
+    "product_name": "Executive Walnut Office Desk",
+    "category": "Office Furniture",
+    "material": "Walnut Wood & Powder-coated Steel",
+    "dimensions": "60\" W x 30\" D x 30\" H",
+    "price": 45000,
+    "quantity": 2,
+    "images": [
+      "/images/office_desk.png"
+    ],
+    "description": "Sleek executive desk featuring a solid walnut top and black metal legs with integrated cable management.",
+    "created_at": "2026-06-18T05:27:44.958Z",
+    "updated_at": "2026-06-18T05:27:44.958Z"
+  },
+  {
+    "id": 6,
+    "product_name": "Brass Inlay Wall Panels",
+    "category": "Interior Materials",
+    "material": "MDF & Brass Inlays",
+    "dimensions": "8ft x 4ft sheets",
+    "price": 12000,
+    "quantity": 25,
+    "images": [
+      "/images/brass_panels.png"
+    ],
+    "description": "Premium decorative wall paneling with geometric brass strip inlays, perfect for focal walls.",
+    "created_at": "2026-06-18T05:27:44.961Z",
+    "updated_at": "2026-06-18T05:27:44.961Z"
+  }
+]

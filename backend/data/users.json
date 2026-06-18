@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Admin User",
+    "email": "admin@harmony.com",
+    "password_hash": "$2a$10$ERsu5Suxm0.egAmAA54.pOdLCaIKw6HSimwh0xtrTeHWCbdYxLsRq",
+    "role": "admin",
+    "status": "Active",
+    "created_at": "2026-06-18T05:27:44.897Z",
+    "updated_at": "2026-06-18T05:27:44.901Z"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Designer",
+    "email": "designer@harmony.com",
+    "password_hash": "$2a$10$ERsu5Suxm0.egAmAA54.pOdLCaIKw6HSimwh0xtrTeHWCbdYxLsRq",
+    "role": "designer",
+    "status": "Active",
+    "created_at": "2026-06-18T05:27:44.904Z",
+    "updated_at": "2026-06-18T05:27:44.904Z"
+  },
+  {
+    "id": 3,
+    "name": "John Sales",
+    "email": "sales@harmony.com",
+    "password_hash": "$2a$10$ERsu5Suxm0.egAmAA54.pOdLCaIKw6HSimwh0xtrTeHWCbdYxLsRq",
+    "role": "sales_executive",
+    "status": "Active",
+    "created_at": "2026-06-18T05:27:44.907Z",
+    "updated_at": "2026-06-18T05:27:44.907Z"
+  },
+  {
+    "id": 4,
+    "name": "Marcus Inventory",
+    "email": "inventory@harmony.com",
+    "password_hash": "$2a$10$ERsu5Suxm0.egAmAA54.pOdLCaIKw6HSimwh0xtrTeHWCbdYxLsRq",
+    "role": "inventory_manager",
+    "status": "Active",
+    "created_at": "2026-06-18T05:27:44.909Z",
+    "updated_at": "2026-06-18T05:27:44.909Z"
+  },
+  {
+    "id": 5,
+    "name": "Emma Accountant",
+    "email": "accountant@harmony.com",
+    "password_hash": "$2a$10$ERsu5Suxm0.egAmAA54.pOdLCaIKw6HSimwh0xtrTeHWCbdYxLsRq",
+    "role": "accountant",
+    "status": "Active",
+    "created_at": "2026-06-18T05:27:44.911Z",
+    "updated_at": "2026-06-18T05:27:44.912Z"
+  }
+]

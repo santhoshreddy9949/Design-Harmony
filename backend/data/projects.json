@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "customer_id": 1,
+    "project_name": "Aditya Reddy Villa Interior",
+    "project_type": "Home Design",
+    "description": "Contemporary interior design for 4BHK villa at Narsingi with custom furnishings.",
+    "start_date": "2026-05-01",
+    "end_date": "2026-08-30",
+    "budget": 1500000,
+    "assigned_designer_id": 2,
+    "status": "In Progress",
+    "progress_percentage": 45,
+    "timeline_milestones": [
+      {
+        "id": 1,
+        "title": "Concept Presentation",
+        "date": "2026-05-10",
+        "completed": true
+      },
+      {
+        "id": 2,
+        "title": "Material Selection & Layouts",
+        "date": "2026-06-05",
+        "completed": true
+      },
+      {
+        "id": 3,
+        "title": "Civil Works & False Ceiling",
+        "date": "2026-06-25",
+        "completed": false
+      },
+      {
+        "id": 4,
+        "title": "Modular Woodwork Installation",
+        "date": "2026-07-20",
+        "completed": false
+      },
+      {
+        "id": 5,
+        "title": "Decor & Handover",
+        "date": "2026-08-25",
+        "completed": false
+      }
+    ],
+    "notes": "False ceiling layout is approved. Electrical work in progress.",
+    "created_at": "2026-06-18T05:27:44.974Z",
+    "updated_at": "2026-06-18T05:27:44.974Z"
+  },
+  {
+    "id": 2,
+    "customer_id": 2,
+    "project_name": "Nisha Sharma 3BHK Renovation",
+    "project_type": "Home Design",
+    "description": "Sleek modern renovation of living room and bedrooms.",
+    "start_date": "2026-06-10",
+    "end_date": "2026-07-25",
+    "budget": 750000,
+    "assigned_designer_id": 2,
+    "status": "Approval Pending",
+    "progress_percentage": 15,
+    "timeline_milestones": [
+      {
+        "id": 1,
+        "title": "Initial Measurement",
+        "date": "2026-06-12",
+        "completed": true
+      },
+      {
+        "id": 2,
+        "title": "3D Render Walkthrough",
+        "date": "2026-06-25",
+        "completed": false
+      },
+      {
+        "id": 3,
+        "title": "Procurement confirmation",
+        "date": "2026-07-05",
+        "completed": false
+      }
+    ],
+    "notes": "Initial site measures completed. Currently developing 3D floor layout designs.",
+    "created_at": "2026-06-18T05:27:44.976Z",
+    "updated_at": "2026-06-18T08:00:19.537Z"
+  }
+]

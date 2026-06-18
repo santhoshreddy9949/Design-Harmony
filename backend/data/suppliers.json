@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Timberland Hardwoods",
+    "phone_number": "+91 98765 43210",
+    "email": "info@timberland.com",
+    "address": "Plot 42, Industrial Area, Hyderabad, TS",
+    "gst_number": "36AAAAA1111A1Z1",
+    "created_at": "2026-06-18T05:27:44.917Z",
+    "updated_at": "2026-06-18T05:27:44.917Z"
+  },
+  {
+    "id": 2,
+    "name": "Lux Fabrications & Foams",
+    "phone_number": "+91 87654 32109",
+    "email": "sales@luxfabrics.com",
+    "address": "12 Gachibowli Road, Hyderabad, TS",
+    "gst_number": "36BBBBB2222B2Z2",
+    "created_at": "2026-06-18T05:27:44.920Z",
+    "updated_at": "2026-06-18T05:27:44.920Z"
+  },
+  {
+    "id": 3,
+    "name": "Golden Accent Decor & Fittings",
+    "phone_number": "+91 76543 21098",
+    "email": "orders@goldenaccent.com",
+    "address": "Sector 5, Jubilee Hills, Hyderabad, TS",
+    "gst_number": "36CCCCC3333C3Z3",
+    "created_at": "2026-06-18T05:27:44.922Z",
+    "updated_at": "2026-06-18T05:27:44.922Z"
+  }
+]
