@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { AuthProvider, useAuth } from './context/AuthContext';
 import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
+import AiBot from './components/AiBot';
 
 // Page imports
 import Login from './pages/Login';
@@ -48,6 +49,9 @@ const AuthenticatedLayout: React.FC<{ children: React.ReactNode }> = ({ children
           </div>
         </main>
       </div>
+
+      {/* Floating global AI Assistant bot */}
+      <AiBot />
     </div>
   );
 };

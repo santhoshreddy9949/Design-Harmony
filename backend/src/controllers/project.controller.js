@@ -51,7 +51,7 @@ exports.getProjectById = (req, res) => {
 
 exports.createProject = (req, res) => {
   try {
-    const { customer_id, project_name, project_type, description, start_date, end_date, budget, assigned_designer_id, notes } = req.body;
+    const { customer_id, project_name, project_type, description, start_date, end_date, budget, assigned_designer_id, notes, designs } = req.body;
     
     if (!customer_id || !project_name || !project_type || !budget) {
       return res.status(400).json({ message: 'Customer ID, project name, type, and budget are required' });
@@ -83,7 +83,7 @@ exports.createProject = (req, res) => {
       status: 'New',
       progress_percentage: 0,
       timeline_milestones: defaultMilestones,
-      designs: [],
+      designs: designs || [],
       documents: [],
       notes
     });

@@ -56,7 +56,8 @@ const Projects: React.FC = () => {
     end_date: '',
     budget: '',
     assigned_designer_id: '',
-    notes: ''
+    notes: '',
+    imageUrl: ''
   });
 
   const loadProjects = async () => {
@@ -110,11 +111,28 @@ const Projects: React.FC = () => {
   const handleCreateProject = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
+      const payload = {
+        ...formData,
+        designs: formData.imageUrl ? [formData.imageUrl] : []
+      };
       await apiFetch('/projects', {
         method: 'POST',
-        body: JSON.stringify(formData)
+        body: JSON.stringify(payload)
       });
       setShowAddModal(false);
+      // Reset form
+      setFormData({
+        customer_id: '',
+        project_name: '',
+        project_type: 'Home Design',
+        description: '',
+        start_date: '',
+        end_date: '',
+        budget: '',
+        assigned_designer_id: '',
+        notes: '',
+        imageUrl: ''
+      });
       loadProjects();
     } catch (err) {
       alert('Error creating project');
@@ -571,6 +589,16 @@ const Projects: React.FC = () => {
                       <option key={d.id} value={d.id}>{d.name}</option>
                     ))}
                   </select>
+                </div>
+                <div className="col-span-2 space-y-1">
+                  <label className="text-xs font-semibold text-slate-500 font-medium">Project Cover Image URL</label>
+                  <input 
+                    type="text" 
+                    value={formData.imageUrl}
+                    onChange={(e) => setFormData({ ...formData, imageUrl: e.target.value })}
+                    className="input-field" 
+                    placeholder="https://example.com/cover.jpg or /images/... path"
+                  />
                 </div>
                 <div className="col-span-2 space-y-1">
                   <label className="text-xs font-semibold text-slate-500">Description</label>
