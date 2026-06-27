@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { API_URL } from '../config';
 import { useAuth } from '../context/AuthContext';
 import { 
   FolderKanban, Clock, Calendar, CheckSquare, Square, 
@@ -76,11 +77,11 @@ const Projects: React.FC = () => {
       setCustomers(custs);
       
       // Load designers
-      const res = await fetch('http://localhost:5000/api/reports/analytics?type=customer', {
+      const res = await fetch(`${API_URL}/api/reports/analytics?type=customer`, {
         headers: { 'Authorization': `Bearer ${localStorage.getItem('dh_token')}` }
       });
       // In json db we can fetch from a generic users list
-      const allUsersRes = await fetch('http://localhost:5000/api/customers', {
+      const allUsersRes = await fetch(`${API_URL}/api/customers`, {
         headers: { 'Authorization': `Bearer ${localStorage.getItem('dh_token')}` }
       });
       // Let's hardcode designers list for frontend options or load them.
@@ -201,7 +202,7 @@ const Projects: React.FC = () => {
     data.append('design', file);
 
     try {
-      const response = await fetch(`http://localhost:5000/api/projects/${selectedProject.id}/upload-design`, {
+      const response = await fetch(`${API_URL}/api/projects/${selectedProject.id}/upload-design`, {
         method: 'POST',
         headers: { 'Authorization': `Bearer ${localStorage.getItem('dh_token')}` },
         body: data
@@ -227,7 +228,7 @@ const Projects: React.FC = () => {
     data.append('document', file);
 
     try {
-      const response = await fetch(`http://localhost:5000/api/projects/${selectedProject.id}/upload-document`, {
+      const response = await fetch(`${API_URL}/api/projects/${selectedProject.id}/upload-document`, {
         method: 'POST',
         headers: { 'Authorization': `Bearer ${localStorage.getItem('dh_token')}` },
         body: data
@@ -276,7 +277,7 @@ const Projects: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {projects.map(proj => {
             const hasDesign = proj.designs && proj.designs.length > 0;
-            const coverUrl = hasDesign ? `http://localhost:5000${proj.designs[0]}` : null;
+            const coverUrl = hasDesign ? `${API_URL}${proj.designs[0]}` : null;
             
             // Premium gradient based on project type
             let gradientClass = 'from-purple-600 to-pink-400';
@@ -450,8 +451,8 @@ const Projects: React.FC = () => {
               {selectedProject.designs?.length > 0 && (
                 <div className="grid grid-cols-3 gap-2 mt-2">
                   {selectedProject.designs.map((img, i) => (
-                    <a key={i} href={`http://localhost:5000${img}`} target="_blank" rel="noreferrer" className="block relative border border-slate-100 dark:border-darkborder rounded-lg overflow-hidden h-14 bg-slate-50">
-                      <img src={`http://localhost:5000${img}`} alt="Blueprint layout" className="w-full h-full object-cover" />
+                    <a key={i} href={`${API_URL}${img}`} target="_blank" rel="noreferrer" className="block relative border border-slate-100 dark:border-darkborder rounded-lg overflow-hidden h-14 bg-slate-50">
+                      <img src={`${API_URL}${img}`} alt="Blueprint layout" className="w-full h-full object-cover" />
                     </a>
                   ))}
                 </div>
@@ -478,7 +479,7 @@ const Projects: React.FC = () => {
                   {selectedProject.documents.map((doc, i) => (
                     <a 
                       key={i} 
-                      href={`http://localhost:5000${doc}`} 
+                      href={`${API_URL}${doc}`} 
                       target="_blank" 
                       rel="noreferrer"
                       className="p-2 border border-slate-100 dark:border-darkborder rounded-xl flex items-center gap-2 text-[11px] hover:bg-slate-50 dark:hover:bg-slate-800 dark:text-slate-200"

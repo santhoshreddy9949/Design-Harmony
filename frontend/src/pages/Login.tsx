@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { API_URL } from '../config';
 import { useAuth } from '../context/AuthContext';
 import { KeyRound, Mail, AlertCircle, Eye, EyeOff, Sparkles } from 'lucide-react';
 
@@ -16,7 +17,7 @@ const Login: React.FC = () => {
     setLoading(true);
 
     try {
-      const res = await fetch('http://localhost:5000/api/auth/login', {
+      const res = await fetch(`${API_URL}/api/auth/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password })
@@ -93,7 +94,7 @@ const Login: React.FC = () => {
                 <label className="text-xs font-semibold text-zinc-400">Password</label>
                 <a href="#forgot" onClick={() => {
                   if (email) {
-                    fetch('http://localhost:5000/api/auth/forgot-password', {
+                    fetch(`${API_URL}/api/auth/forgot-password`, {
                       method: 'POST',
                       headers: { 'Content-Type': 'application/json' },
                       body: JSON.stringify({ email })

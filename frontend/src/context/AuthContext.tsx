@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import { API_URL } from '../config';
 
 export interface User {
   id: number;
@@ -28,7 +29,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       const storedToken = localStorage.getItem('dh_token');
       if (storedToken) {
         try {
-          const res = await fetch('http://localhost:5000/api/auth/me', {
+          const res = await fetch(`${API_URL}/api/auth/me`, {
             headers: {
               'Authorization': `Bearer ${storedToken}`
             }
@@ -80,7 +81,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       headers
     };
 
-    const res = await fetch(`http://localhost:5000/api${url}`, mergedOptions);
+    const res = await fetch(`${API_URL}/api${url}`, mergedOptions);
     if (!res.ok) {
       const errData = await res.json().catch(() => ({}));
       throw new Error(errData.message || 'API request failed');

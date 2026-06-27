@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { API_URL } from '../config';
 import { useAuth } from '../context/AuthContext';
 import { Search, Plus, Edit2, Trash2, X, Tag, Sliders, Box } from 'lucide-react';
 
@@ -44,7 +45,7 @@ const Products: React.FC = () => {
     if (!images || images.length === 0) return '';
     const first = images[0];
     if (first.startsWith('http') || first.startsWith('/uploads')) {
-      if (first.startsWith('/uploads')) return `http://localhost:5000${first}`;
+      if (first.startsWith('/uploads')) return `${API_URL}${first}`;
       return first;
     }
     return first;
@@ -140,7 +141,7 @@ const Products: React.FC = () => {
     setUploadingImage(true);
 
     try {
-      const response = await fetch(`http://localhost:5000/api/products/${productId}/upload-image`, {
+      const response = await fetch(`${API_URL}/api/products/${productId}/upload-image`, {
         method: 'POST',
         headers: { 'Authorization': `Bearer ${localStorage.getItem('dh_token')}` },
         body: data
