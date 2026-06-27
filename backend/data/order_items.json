@@ -20,5 +20,159 @@
     "total_price": 28000,
     "created_at": "2026-06-18T05:27:44.988Z",
     "updated_at": "2026-06-18T05:27:44.988Z"
+  },
+  {
+    "id": 3,
+    "order_id": 2,
+    "product_id": 1,
+    "product_name": "Royal Velvet Chesterfield Sofa",
+    "quantity": 2,
+    "unit_price": 85000,
+    "total_price": 170000,
+    "created_at": "2026-06-18T13:58:16.999Z",
+    "updated_at": "2026-06-18T13:58:16.999Z"
+  },
+  {
+    "id": 4,
+    "order_id": 2,
+    "product_id": 3,
+    "product_name": "Mid-Century Modern Lounge Chair",
+    "quantity": 1,
+    "unit_price": 28000,
+    "total_price": 28000,
+    "created_at": "2026-06-18T13:58:17.003Z",
+    "updated_at": "2026-06-18T13:58:17.003Z"
+  },
+  {
+    "id": 5,
+    "order_id": 3,
+    "product_id": 1,
+    "product_name": "Royal Velvet Chesterfield Sofa",
+    "quantity": 1,
+    "unit_price": 85000,
+    "total_price": 85000,
+    "created_at": "2026-06-18T16:58:58.009Z",
+    "updated_at": "2026-06-18T16:58:58.009Z"
+  },
+  {
+    "id": 6,
+    "order_id": 3,
+    "product_id": 2,
+    "product_name": "Minimalist Oak Dining Table",
+    "quantity": 1,
+    "unit_price": 62000,
+    "total_price": 62000,
+    "created_at": "2026-06-18T16:58:58.011Z",
+    "updated_at": "2026-06-18T16:58:58.011Z"
+  },
+  {
+    "id": 7,
+    "order_id": 3,
+    "product_id": 3,
+    "product_name": "Mid-Century Modern Lounge Chair",
+    "quantity": 1,
+    "unit_price": 28000,
+    "total_price": 28000,
+    "created_at": "2026-06-18T16:58:58.017Z",
+    "updated_at": "2026-06-18T16:58:58.017Z"
+  },
+  {
+    "id": 8,
+    "order_id": 3,
+    "product_id": 4,
+    "product_name": "Luxury Tufted King Bed",
+    "quantity": 1,
+    "unit_price": 78000,
+    "total_price": 78000,
+    "created_at": "2026-06-18T16:58:58.020Z",
+    "updated_at": "2026-06-18T16:58:58.020Z"
+  },
+  {
+    "id": 9,
+    "order_id": 3,
+    "product_id": 5,
+    "product_name": "Executive Walnut Office Desk",
+    "quantity": 1,
+    "unit_price": 455000,
+    "total_price": 455000,
+    "created_at": "2026-06-18T16:58:58.022Z",
+    "updated_at": "2026-06-18T16:58:58.022Z"
+  },
+  {
+    "id": 10,
+    "order_id": 3,
+    "product_id": 6,
+    "product_name": "Brass Inlay Wall Panels",
+    "quantity": 1,
+    "unit_price": 12000,
+    "total_price": 12000,
+    "created_at": "2026-06-18T16:58:58.025Z",
+    "updated_at": "2026-06-18T16:58:58.025Z"
+  },
+  {
+    "id": 11,
+    "order_id": 4,
+    "product_id": 1,
+    "product_name": "Royal Velvet Chesterfield Sofa",
+    "quantity": 1,
+    "unit_price": 85000,
+    "total_price": 85000,
+    "created_at": "2026-06-19T04:38:31.243Z",
+    "updated_at": "2026-06-19T04:38:31.243Z"
+  },
+  {
+    "id": 12,
+    "order_id": 4,
+    "product_id": 2,
+    "product_name": "Minimalist Oak Dining Table",
+    "quantity": 1,
+    "unit_price": 62000,
+    "total_price": 62000,
+    "created_at": "2026-06-19T04:38:31.251Z",
+    "updated_at": "2026-06-19T04:38:31.251Z"
+  },
+  {
+    "id": 13,
+    "order_id": 4,
+    "product_id": 3,
+    "product_name": "Mid-Century Modern Lounge Chair",
+    "quantity": 1,
+    "unit_price": 28000,
+    "total_price": 28000,
+    "created_at": "2026-06-19T04:38:31.260Z",
+    "updated_at": "2026-06-19T04:38:31.260Z"
+  },
+  {
+    "id": 14,
+    "order_id": 4,
+    "product_id": 4,
+    "product_name": "Luxury Tufted King Bed",
+    "quantity": 2,
+    "unit_price": 78000,
+    "total_price": 156000,
+    "created_at": "2026-06-19T04:38:31.265Z",
+    "updated_at": "2026-06-19T04:38:31.265Z"
+  },
+  {
+    "id": 15,
+    "order_id": 4,
+    "product_id": 5,
+    "product_name": "Executive Walnut Office Desk",
+    "quantity": 1,
+    "unit_price": 455000,
+    "total_price": 455000,
+    "created_at": "2026-06-19T04:38:31.270Z",
+    "updated_at": "2026-06-19T04:38:31.271Z"
+  },
+  {
+    "id": 16,
+    "order_id": 4,
+    "product_id": 6,
+    "product_name": "Brass Inlay Wall Panels",
+    "quantity": 1,
+    "unit_price": 12000,
+    "total_price": 12000,
+    "created_at": "2026-06-19T04:38:31.277Z",
+    "updated_at": "2026-06-19T04:38:31.277Z"
   }
 ]

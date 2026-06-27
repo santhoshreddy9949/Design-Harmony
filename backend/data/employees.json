@@ -9,13 +9,13 @@
     "joining_date": "2025-01-15",
     "salary": 65000,
     "attendance_summary": {
-      "present": 23,
+      "present": 28,
       "absent": 1,
       "leave": 1
     },
     "performance_rating": 4.8,
     "created_at": "2026-06-18T05:27:45.006Z",
-    "updated_at": "2026-06-18T07:57:06.917Z"
+    "updated_at": "2026-06-19T04:58:35.833Z"
   },
   {
     "id": 2,
@@ -28,12 +28,12 @@
     "salary": 45000,
     "attendance_summary": {
       "present": 24,
-      "absent": 0,
+      "absent": 1,
       "leave": 0
     },
     "performance_rating": 4.5,
     "created_at": "2026-06-18T05:27:45.008Z",
-    "updated_at": "2026-06-18T05:27:45.008Z"
+    "updated_at": "2026-06-18T13:58:51.964Z"
   },
   {
     "id": 3,
@@ -45,12 +45,12 @@
     "joining_date": "2025-02-10",
     "salary": 55000,
     "attendance_summary": {
-      "present": 21,
+      "present": 24,
       "absent": 2,
       "leave": 1
     },
     "performance_rating": 4.6,
     "created_at": "2026-06-18T05:27:45.010Z",
-    "updated_at": "2026-06-18T05:27:45.010Z"
+    "updated_at": "2026-06-18T13:58:55.189Z"
   }
 ]

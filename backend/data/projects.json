@@ -9,8 +9,8 @@
     "end_date": "2026-08-30",
     "budget": 1500000,
     "assigned_designer_id": 2,
-    "status": "In Progress",
-    "progress_percentage": 45,
+    "status": "Completed",
+    "progress_percentage": 100,
     "timeline_milestones": [
       {
         "id": 1,
@@ -28,24 +28,24 @@
         "id": 3,
         "title": "Civil Works & False Ceiling",
         "date": "2026-06-25",
-        "completed": false
+        "completed": true
       },
       {
         "id": 4,
         "title": "Modular Woodwork Installation",
         "date": "2026-07-20",
-        "completed": false
+        "completed": true
       },
       {
         "id": 5,
         "title": "Decor & Handover",
         "date": "2026-08-25",
-        "completed": false
+        "completed": true
       }
     ],
     "notes": "False ceiling layout is approved. Electrical work in progress.",
     "created_at": "2026-06-18T05:27:44.974Z",
-    "updated_at": "2026-06-18T05:27:44.974Z"
+    "updated_at": "2026-06-18T13:56:44.926Z"
   },
   {
     "id": 2,
@@ -57,7 +57,7 @@
     "end_date": "2026-07-25",
     "budget": 750000,
     "assigned_designer_id": 2,
-    "status": "Approval Pending",
+    "status": "In Progress",
     "progress_percentage": 15,
     "timeline_milestones": [
       {
@@ -81,6 +81,6 @@
     ],
     "notes": "Initial site measures completed. Currently developing 3D floor layout designs.",
     "created_at": "2026-06-18T05:27:44.976Z",
-    "updated_at": "2026-06-18T08:00:19.537Z"
+    "updated_at": "2026-06-19T04:57:21.914Z"
   }
 ]

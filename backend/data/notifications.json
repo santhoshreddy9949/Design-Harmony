@@ -51,5 +51,125 @@
     "type": "Project Update",
     "created_at": "2026-06-18T08:00:19.538Z",
     "updated_at": "2026-06-18T08:00:19.538Z"
+  },
+  {
+    "id": 6,
+    "user_id": null,
+    "role": "admin",
+    "title": "Project Status Updated",
+    "message": "Project \"Aditya Reddy Villa Interior\" has moved from In Progress to Completed.",
+    "type": "Project Update",
+    "created_at": "2026-06-18T13:56:37.897Z",
+    "updated_at": "2026-06-18T13:56:37.897Z"
+  },
+  {
+    "id": 7,
+    "user_id": null,
+    "role": "admin",
+    "title": "Quotation Approved",
+    "message": "Quotation #1 approved. Order #2 generated automatically.",
+    "type": "New Order",
+    "created_at": "2026-06-18T13:58:17.006Z",
+    "updated_at": "2026-06-18T13:58:17.006Z"
+  },
+  {
+    "id": 8,
+    "user_id": null,
+    "role": "inventory_manager",
+    "title": "Low Stock Alert",
+    "message": "Minimalist Oak Dining Table stock is low (3 left) following Order creation.",
+    "type": "Low Stock",
+    "created_at": "2026-06-18T16:58:58.016Z",
+    "updated_at": "2026-06-18T16:58:58.016Z"
+  },
+  {
+    "id": 9,
+    "user_id": null,
+    "role": "inventory_manager",
+    "title": "Low Stock Alert",
+    "message": "Luxury Tufted King Bed stock is low (2 left) following Order creation.",
+    "type": "Low Stock",
+    "created_at": "2026-06-18T16:58:58.022Z",
+    "updated_at": "2026-06-18T16:58:58.022Z"
+  },
+  {
+    "id": 10,
+    "user_id": null,
+    "role": "inventory_manager",
+    "title": "Low Stock Alert",
+    "message": "Executive Walnut Office Desk stock is low (1 left) following Order creation.",
+    "type": "Low Stock",
+    "created_at": "2026-06-18T16:58:58.024Z",
+    "updated_at": "2026-06-18T16:58:58.024Z"
+  },
+  {
+    "id": 11,
+    "user_id": null,
+    "role": "admin",
+    "title": "Quotation Approved",
+    "message": "Quotation #2 approved. Order #3 generated automatically.",
+    "type": "New Order",
+    "created_at": "2026-06-18T16:58:58.028Z",
+    "updated_at": "2026-06-18T16:58:58.028Z"
+  },
+  {
+    "id": 12,
+    "user_id": null,
+    "role": "inventory_manager",
+    "title": "Low Stock Alert",
+    "message": "Minimalist Oak Dining Table stock is low (2 left) following Order creation.",
+    "type": "Low Stock",
+    "created_at": "2026-06-19T04:38:31.258Z",
+    "updated_at": "2026-06-19T04:38:31.258Z"
+  },
+  {
+    "id": 13,
+    "user_id": null,
+    "role": "inventory_manager",
+    "title": "Low Stock Alert",
+    "message": "Luxury Tufted King Bed stock is low (0 left) following Order creation.",
+    "type": "Low Stock",
+    "created_at": "2026-06-19T04:38:31.269Z",
+    "updated_at": "2026-06-19T04:38:31.269Z"
+  },
+  {
+    "id": 14,
+    "user_id": null,
+    "role": "inventory_manager",
+    "title": "Low Stock Alert",
+    "message": "Executive Walnut Office Desk stock is low (0 left) following Order creation.",
+    "type": "Low Stock",
+    "created_at": "2026-06-19T04:38:31.276Z",
+    "updated_at": "2026-06-19T04:38:31.276Z"
+  },
+  {
+    "id": 15,
+    "user_id": null,
+    "role": "admin",
+    "title": "Quotation Approved",
+    "message": "Quotation #3 approved. Order #4 generated automatically.",
+    "type": "New Order",
+    "created_at": "2026-06-19T04:38:31.280Z",
+    "updated_at": "2026-06-19T04:38:31.280Z"
+  },
+  {
+    "id": 16,
+    "user_id": null,
+    "role": "admin",
+    "title": "Project Status Updated",
+    "message": "Project \"Nisha Sharma 3BHK Renovation\" has moved from Approval Pending to In Progress.",
+    "type": "Project Update",
+    "created_at": "2026-06-19T04:57:21.916Z",
+    "updated_at": "2026-06-19T04:57:21.916Z"
+  },
+  {
+    "id": 17,
+    "user_id": null,
+    "role": "sales_executive",
+    "title": "Order Status Update",
+    "message": "Order #1 status changed from Confirmed to Pending.",
+    "type": "New Order",
+    "created_at": "2026-06-19T04:58:20.252Z",
+    "updated_at": "2026-06-19T04:58:20.252Z"
   }
 ]
